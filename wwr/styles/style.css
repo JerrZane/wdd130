@@ -1,20 +1,29 @@
 
-    #content { 
-        max-width: 1600px; margin: 0 auto;
+   @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+   #content { 
+   
+    max-width: 1600px; margin: 0 auto;
     }
 
 
     nav a 
      {text-align:
         center;
-        text-decoration: none;}
+        text-decoration: none;
+        padding: 35px;}
     #hero-msg h1
     {text-align:
-        center;}
+        center;
+        font-family: "Papyrus", "Copperplate", 'Caveat';
+        font-size: 2em;}
 
     #hero-msg h4
     {text-align: 
-        center;}
+        center;
+        font-family:'Caveat', cursive, 'Brush Script MT', cursive, Times;
+        font-size: 25px;
+        margin: 10;}
+
 
     .button-box
     {text-align: 
@@ -22,7 +31,10 @@
 
     main section 
     {text-align: 
-        center;}
+        center;  
+        font-family:'Caveat', cursive, 'Brush Script MT', cursive, Times;
+        font-size: 20px;}
+    
 
     #background {
         height: 725px;
@@ -31,7 +43,12 @@
    
    
     body {
-        background-color:#F6AE2D;color: black
+        background-color:#F6AE2D;color: black;
+        font-family: 'Caveat', cursive, 'Brush Script MT', cursive, Times;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+
     }
     header {
         background-color:#86BBD8;color: black
@@ -43,9 +60,13 @@
 
     }
     .book, .join {
-        background-color: white;
+        background-color: #F6AE2D;
         color: black;
-        text-decoration: none;
+        text-decoration: none,
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
     
     .book:hover,.join:hover {
@@ -59,7 +80,10 @@
     }
 
     .msg{ 
-        background-color: #86BBD8;color: black
+        background-color: #86BBD8;color: black,
+        font-size:.8em;
+        line-height: 1.5em;
+        padding: 35px;
     }
 
     footer{
@@ -67,6 +91,8 @@
         color: black;
         text-decoration: none;
         font-size: 1.2em;
+        padding: 25px 50px;
+        margin-top: 200px;
     }
 
     .logo{
@@ -74,6 +100,7 @@
     }
     .icon {
         width: 80px;
+        padding-top: 10px;
     }
     #hero-img{
         width:100%;
@@ -85,3 +112,22 @@
     footer p {
         font-size: 1.2em;
     }    
+
+    h2 {
+        margin: 0;
+    }
+
+    #logo_link{   padding-top: 5px;
+    }
+    .msg p   {padding-bottom: 15px;}
+    footer .social img {  padding-top: 15px;}
+
+    .home-title {  margin-top: 10px;}
+    .rivers-card, .camping-card, .rapids-card  { margin: 200px 0;}
+    .card-img {
+        border: 10px solid black;
+    }
+    main section img {
+        box-sizing: border-box;
+    }
+                
