@@ -65,9 +65,10 @@ nav a:hover {
     background-color: #86BBD8;
    color: black 
 }
-.msg{
+.msg {
     background-color: #86BBD8;
-   color: black, font-size:.8em;
+   color: black;
+   font-size:.8em;
     line-height: 1.5em;
     padding: 35px;
 }
