@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color:#3B9778 ;
  /* https://www.canva.com/colors/color-palettes/melon-and-mint/ */
   /* change the values below to your chosen font(s) */
-    --heading-font: Copperplate cursive, Papyrus, fantasy;
+    --heading-font: Times, Copperplate, Papyrus, fantasy;
     --paragraph-font: Tahoma | Verdana | sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
