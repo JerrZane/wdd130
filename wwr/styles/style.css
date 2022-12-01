@@ -18,7 +18,7 @@ nav a {
    text-align: center;
     font-family:'Caveat', cursive, 'Brush Script MT', cursive, Times;
     font-size: 25px;
-    margin: 10;
+    margin: 10px;
     color: white;
 }
 .button-box {
@@ -42,7 +42,7 @@ body {
 }
 header {
     background-color:#86BBD8;
-   color: black
+   color: black;
    display: grid;
    grid-template-columns: 150px auto;
 }
@@ -134,7 +134,7 @@ main section img {
 nav {
     display: flex;
     justify-content: space-around;
-    flex-basis:  | auto; /* default auto */
+    flex-basis:  auto; /* default auto */
 }
  
 #logo_link {
