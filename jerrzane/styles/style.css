@@ -110,6 +110,15 @@ footer{
    grid-column: 2/10;
     grid-row: 2/3;
 }
+.snow {
+    padding-top: 25px;
+    grid-column: 2/10;
+     grid-row: 2/3;}
+ .banjo {
+        padding-top: 25px;
+        grid-column: 2/10;
+         grid-row: 2/3;
+     }
 #hero-img{
     width:100%;
     margin-top: -100px;
@@ -185,7 +194,10 @@ nav {
     display: grid;
     grid-template-columns: 1fr 800px 1fr ;
 }
-
+.snow-grid {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr ;
+}
             
 .rapids-card{ 
     grid-column: 8/10;
