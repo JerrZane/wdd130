@@ -147,26 +147,24 @@ nav {
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    z-index: 1;
-}
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
     margin-top: -100px;
 }
-
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 8fr 1fr ;
 }
 .river-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 8fr 1fr ;
 }
 .rivers-card {
     grid-column: 2/4;
